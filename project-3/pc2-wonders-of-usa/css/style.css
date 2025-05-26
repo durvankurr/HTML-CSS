@@ -1,5 +1,14 @@
-/* Write CSS code here */
+
 /* --------------------------------------- HEADER----------------------------------------------------- */
+
+.main-header {
+  background-color: midnightblue;
+}
+
+.flag-image {
+  width: 40px;
+  height: 40px;
+}
 
 .rounded-image {
     border-radius: 10px;
