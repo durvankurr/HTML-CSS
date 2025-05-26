@@ -1,0 +1,41 @@
+nav {
+    background-color: black;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li a, li span {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+li.contact {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 460px;
+}
+
+li.contact a {
+    background-color: lightblue;
+    color: black;
+    border-radius: 15px;
+    
+}
+
+li.logo {
+    margin-left: auto;
+}
