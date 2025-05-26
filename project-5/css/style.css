@@ -1,0 +1,125 @@
+/* Write CSS code here */
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #011a37;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand-name {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Hero Unit Styles */
+.hero-unit {
+    background-color: #047ade;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.hero-content, .hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero-unit .container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content p {
+    letter-spacing: 0.5px;
+    margin: 20px 0;
+}
+
+.hero-card {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.hero-card h2 {
+    margin-bottom: 20px;
+}
+
+.hero-card ul {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.btn {
+    background-color: #fff;
+    color: #047ade;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #fff8;
+    color: #047ade;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    .hero-unit .container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content, .hero-card {
+        align-items: flex-start;
+    }
+}
