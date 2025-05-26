@@ -12,7 +12,7 @@ The Hoover Dam is another engineering marvel. Completed in 1936, it spans the Co
 
 Use CSS3 style properties to style the web page that lists down the two engineering wonders of the United States of America​​. 
 
-Crteate a replica of the below image.
+Create a replica of the below image.
 ![](./Wonders-of-America.png)
 
 
