@@ -189,20 +189,25 @@
                                 <input type="text" class="form-control" placeholder="Phone">
                             </div>
                             <div class="form-group">
-                                <input type="date" class="form-control">
+                                <label for="date-input">Select date:</label>
+                                <input type="date" id="date-input" class="form-control">
                             </div>
                             <div class="form-group">
-                                <input type="time" class="form-control">
+                                <label for="time-input">Select time:</label>
+                                <input type="time" id="time-input" class="form-control">
                             </div>
                             <div class="form-group">
-                                <select class="form-control">
-                                    <option>Number of Persons</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
+                                <div class="form-group">
+                                <label for="num-persons-select">Number of Persons</label>
+                                <select id="num-persons-select" class="form-control">
+                                <option value="" disabled selected>Select number of persons</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
                                 </select>
                             </div>
+                            
                             <button type="submit" class="btn btn-primary">Make a Reservation</button>
                         </form>
                     </div>
